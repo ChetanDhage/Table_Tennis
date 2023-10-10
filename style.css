@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #73b2d9, #dedede, #8789C0, #4d504f, #000000);
+  background-size: 500%; 
+  animation: background-img-animation 30s alternate infinit;
+}
+
+@keyframes background-img-animation {
+  0% {
+    background-position: left
+  }
+  
+  100% {
+    background-position: right
+  }
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  table th {
+    background-color: #ccc;
+  }
+  
